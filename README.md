@@ -1,11 +1,17 @@
 # Boilerplate nodejs
 
-To install you must run  ```npm install```
+## Boilerplate README
 
-## To configure
+This application is an boilerplate with mongodb for nodejs.
 
-You must create .env file and set the following variables in this file:
+## Getting started
 
-**PORT**: it is the port that you want to server run
+Run `npm install` to install all dependencies of the app.
 
-**MONGODB_CNN**: it is the url [mongodb](https://www.mongodb.com/cloud) connection, it is not required, if you do not set that variable, server is going to run without data base connection
+Create and configure .env file (you can use .example.env to know what environment variables you must define):
+
+    PORT: This variable is the port where you want your app runs
+
+    MONGODB_CNN: this is the url to connect to mongo data base, for this you can check [the documentation](https://www.mongodb.com/docs/cloud-manager/tutorial/getting-started/)
+
+Before Create and configure .env file you can use `npm start` to start your app in the port that you configured. If you run this locally you can find your api in <http://localhost:[PORT]>/api
